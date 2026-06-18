@@ -1,0 +1,24 @@
+{
+  "name": "world_of_snakes",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "[yazmeyaa](evgenijantonenkov456@gmail.com)",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@4.17.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "yarn workspaces foreach -A run lint"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@types/node": "^25.9.3",
+    "eslint": "10.5.0",
+    "jiti": "^2.7.0",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.61.1"
+  }
+}

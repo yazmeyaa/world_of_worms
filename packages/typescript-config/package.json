@@ -1,0 +1,6 @@
+{
+  "name": "@world_of_snakes/typescript-config",
+  "version": "0.0.1",
+  "private": true,
+  "tsconfig": "base.json"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@world_of_snakes/browser",
+  "version": "0.0.1",
+  "description": "World Of Worms browser game",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@eslint/css": "1.3.0",
+    "@world_of_snakes/eslint-config": "workspace:^",
+    "@world_of_snakes/typescript-config": "workspace:^",
+    "eslint": "10.5.0",
+    "globals": "17.6.0",
+    "typescript": "6.0.3",
+    "vite": "8.0.16"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@draug/engine": "1.0.30",
+    "@world_of_snakes/game": "workspace:^"
+  }
+}

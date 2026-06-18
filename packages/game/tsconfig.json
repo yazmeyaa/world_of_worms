@@ -1,0 +1,10 @@
+{
+  "extends": "@world_of_snakes/typescript-config/base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "rootDir": "src"
+  },
+  "include": [
+    "src"
+  ]
+}

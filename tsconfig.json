@@ -1,0 +1,12 @@
+{
+  "extends": "@world_of_snakes/typescript-config/node.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": [
+    "packages/eslint-config/src/index.mts",
+    "apps/*/eslint.config.mts",
+    "packages/*/eslint.config.mts"
+  ]
+}
